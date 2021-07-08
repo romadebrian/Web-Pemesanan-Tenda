@@ -16,7 +16,7 @@ function query($query)
 
 function cari($keyword)
 {
-	$query = "SELECT * FROM mahasiswa 
+	$query = "SELECT * FROM pesanan 
 	where 
 	ID_Pesanan like '%$keyword%' or 
 	Nama_Tenda  like '%$keyword%' 

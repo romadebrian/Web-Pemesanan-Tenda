@@ -12,8 +12,8 @@ if (isset($_POST["cari"]))
 }
 
 echo "	<form action='' method='post'>
-			<input type='text' name='keyword' size='30' autofocus
-			placeholder='Masukan data pencarian' autocomplete='off' id='keyword'>
+			<input type='text' name='keyword' size='50' autofocus
+			placeholder='Masukan data pencarian ID Pesanan / Nama Tenda' autocomplete='off' id='keyword'>
 			<button type='submit' name = 'cari' id='tombol-cari'>Cari</button>
 		</form>";
 
